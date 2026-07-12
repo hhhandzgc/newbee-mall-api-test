@@ -1,0 +1,16 @@
+[32mINFO    [0m newbee_mall_test:http_client.py:28 [GET] http://localhost:28019/categories
+[32mINFO    [0m newbee_mall_test:http_client.py:73 Status: 404
+[32mINFO    [0m newbee_mall_test:http_client.py:77 Response: {
+  "timestamp": 1783785082876,
+  "status": 404,
+  "error": "Not Found",
+  "path": "/categories"
+}
+[32mINFO    [0m newbee_mall_test:http_client.py:28 [GET] http://localhost:28019/goods/category
+[32mINFO    [0m newbee_mall_test:http_client.py:73 Status: 404
+[32mINFO    [0m newbee_mall_test:http_client.py:77 Response: {
+  "timestamp": 1783785082880,
+  "status": 404,
+  "error": "Not Found",
+  "path": "/goods/category"
+}

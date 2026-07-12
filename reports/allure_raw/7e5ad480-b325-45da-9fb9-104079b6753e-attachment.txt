@@ -1,0 +1,10 @@
+[32mINFO    [0m newbee_mall_test:base_page.py:35 【Page初始化】HomePage
+[32mINFO    [0m newbee_mall_test:base_page.py:118 【打开页面】http://localhost:8080
+[32mINFO    [0m newbee_mall_test:home_page.py:54 【首页】已打开
+[32mINFO    [0m newbee_mall_test:base_page.py:49 【查找元素】css selector = .search-wrap input
+[1m[31mERROR   [0m newbee_mall_test:base_page.py:57 【查找失败】元素未找到：css selector = .search-wrap input
+[32mINFO    [0m newbee_mall_test:base_page.py:35 【Page初始化】HomePage
+[32mINFO    [0m newbee_mall_test:base_page.py:118 【打开页面】http://localhost:8080
+[32mINFO    [0m newbee_mall_test:home_page.py:54 【首页】已打开
+[32mINFO    [0m newbee_mall_test:base_page.py:49 【查找元素】css selector = .search-wrap input
+[1m[31mERROR   [0m newbee_mall_test:base_page.py:57 【查找失败】元素未找到：css selector = .search-wrap input

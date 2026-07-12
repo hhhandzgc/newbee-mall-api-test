@@ -1,0 +1,14 @@
+[32mINFO    [0m newbee_mall_test:http_client.py:28 [GET] http://localhost:28019/api/v1/search
+[32mINFO    [0m newbee_mall_test:http_client.py:30 Params: {'keyword': 'abcdefg12345不存在', 'pageNumber': 1, 'pageSize': 10}
+[32mINFO    [0m newbee_mall_test:http_client.py:73 Status: 200
+[32mINFO    [0m newbee_mall_test:http_client.py:77 Response: {
+  "resultCode": 200,
+  "message": "SUCCESS",
+  "data": {
+    "totalCount": 0,
+    "pageSize": 10,
+    "totalPage": 0,
+    "currPage": 1,
+    "list": []
+  }
+}

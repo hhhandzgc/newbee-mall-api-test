@@ -1,0 +1,23 @@
+2026-07-12 00:32:06 [INFO] [http_client.py:28] [GET] http://localhost:28019/api/v1/search
+2026-07-12 00:32:06 [INFO] [http_client.py:30] Params: {'keyword': '手机', 'pageNumber': 1, 'pageSize': 10}
+2026-07-12 00:32:06 [INFO] [http_client.py:73] Status: 200
+2026-07-12 00:32:06 [INFO] [http_client.py:77] Response: {
+  "resultCode": 200,
+  "message": "SUCCESS",
+  "data": {
+    "totalCount": 298,
+    "pageSize": 10,
+    "totalPage": 30,
+    "currPage": 1,
+    "list": [
+      {
+        "goodsId": 10161,
+        "goodsName": "荣耀原装三键线控带麦半入耳式耳机AM116(尊爵版)适用...",
+        "goodsIntro": "新蜂精选",
+        "goodsCoverImg": "/goods-img/183481c3-47ff-4b2e-926f-b02b926ac02c.jpg",
+        "sellingPrice": 49
+      },
+      {
+        "goodsId": 10162,
+        "goodsName": "诺基亚（NOKIA）BH-705 银白色 5.0真无线蓝...",
+        "goodsIntr

@@ -1,0 +1,8 @@
+[32mINFO    [0m newbee_mall_test:http_client.py:37 [POST] http://localhost:28019/api/v1/shop-cart
+[32mINFO    [0m newbee_mall_test:http_client.py:39 Body: {"goodsId": 10893, "goodsCount": 2}
+[32mINFO    [0m newbee_mall_test:http_client.py:73 Status: 200
+[32mINFO    [0m newbee_mall_test:http_client.py:77 Response: {
+  "resultCode": 500,
+  "message": "已存在！无需重复添加！",
+  "data": null
+}

@@ -1,0 +1,61 @@
+
+[POST] http://localhost:28019/api/v1/user/register
+Body: {"loginName": "13817837834", "password": "123456"}
+Status: 200
+Response: {
+  "resultCode": 200,
+  "message": "SUCCESS",
+  "data": null
+}
+
+[POST] http://localhost:28019/api/v1/user/login
+Body: {"loginName": "13817837834", "passwordMd5": "e10adc3949ba59abbe56e057f20f883e"}
+Status: 200
+Response: {
+  "resultCode": 200,
+  "message": "SUCCESS",
+  "data": "26e3758863e129aa1202da0ac1d51706"
+}
+
+[Token已设置] 26e3758863e129aa1202...
+
+[POST] http://localhost:28019/api/v1/shop-cart
+Body: {"goodsId": 10893, "goodsCount": 1}
+Status: 200
+Response: {
+  "resultCode": 200,
+  "message": "SUCCESS",
+  "data": null
+}
+[步骤1] 商品已加入购物车
+
+[GET] http://localhost:28019/api/v1/shop-cart
+Status: 200
+Response: {
+  "resultCode": 200,
+  "message": "SUCCESS",
+  "data": [
+    {
+      "cartItemId": 19,
+      "goodsId": 10893,
+      "goodsCount": 1,
+      "goodsName": "HUAWEI Mate 30 Pro 双4000万徕卡电...",
+      "goodsCoverImg": "/goods-img/mate30p2.png",
+      "sellingPrice": 5399
+    }
+  ]
+}
+[步骤2] 购物车有1件商品
+
+[POST] http://localhost:28019/api/v1/saveOrder
+Body: {"cartItemIds": [19]}
+Status: 200
+Response: {
+  "resultCode": 500,
+  "message": "参数错误！",
+  "data": null
+}
+[步骤3] 结算响应：{'resultCode': 500, 'message': '参数错误！', 'data': None}
+[通过] 订单创建被业务规则拦截：参数错误！
+
+[清理] 已删除测试用户：13817837834

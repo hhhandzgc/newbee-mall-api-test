@@ -1,0 +1,109 @@
+
+[POST] http://localhost:28019/api/v1/user/register
+Body: {"loginName": "13817837834", "password": "123456"}
+Status: 200
+Response: {
+  "resultCode": 200,
+  "message": "SUCCESS",
+  "data": null
+}
+
+[POST] http://localhost:28019/api/v1/user/login
+Body: {"loginName": "13817837834", "passwordMd5": "e10adc3949ba59abbe56e057f20f883e"}
+Status: 200
+Response: {
+  "resultCode": 200,
+  "message": "SUCCESS",
+  "data": "66cb11ea7b08e9796896d838712fcec3"
+}
+
+[Token已设置] 66cb11ea7b08e9796896...
+
+[GET] http://localhost:28019/api/v1/search
+Params: {'keyword': '手机', 'pageNumber': 1, 'pageSize': 10}
+Status: 200
+Response: {
+  "resultCode": 200,
+  "message": "SUCCESS",
+  "data": {
+    "totalCount": 298,
+    "pageSize": 10,
+    "totalPage": 30,
+    "currPage": 1,
+    "list": [
+      {
+        "goodsId": 10161,
+        "goodsName": "荣耀原装三键线控带麦半入耳式耳机AM116(尊爵版)适用...",
+        "goodsIntro": "新蜂精选",
+        "goodsCoverImg": "/goods-img/183481c3-47ff-4b2e-926f-b02b926ac02c.jpg",
+        "sellingPrice": 49
+      },
+      {
+        "goodsId": 10162,
+        "goodsName": "诺基亚（NOKIA）BH-705 银白色 5.0真无线蓝...",
+        "goodsIntro": "新蜂精选",
+        "goodsCoverImg": "/goods-img/5e0d089b-fa91-410d-8ff2-9534eb6f627f.jpg",
+        "sellingPrice": 499
+      },
+      {
+        "goodsId": 10168,
+        "goodsName": "纽曼（Newmine）NM-LK06 全兼容线控音乐手机...",
+        "goodsIntro": "新蜂精选",
+        "goodsCoverImg": "/goods-img/ad53ea23-6974-4e44-b62d-eab498ce1d63.jpg",
+        "sellingPrice": 9
+      },
+      {
+        "goodsId": 10170,
+        "goodsName": "索尼（SONY）WI-1000X Hi-Res颈挂式 入...",
+        "goodsIntro": "无线蓝牙耳机 高音质降噪耳机 手机通话 黑色",
+        "goodsCoverImg": "/goods-img/1631a30b-287c-41da-bbbe-1a9b1b8d1552.jpg",
+        "sellingPrice": 1499
+      },
+      {
+        "goodsId": 10173,
+        "goodsName": "Beats Solo3 Wireless",
+        "goodsIntro": "头戴式 蓝牙无线耳机 手机耳机 游戏耳机 - 桀骜黑红（十周...",
+        "goodsCoverImg": "/goods-img/72218e28-fc58-4aa0-b3cd-c1f2c764d25e.jpg",
+        "sellingPrice": 1698
+      },
+      {
+        "goodsId": 10175,
+        "goodsName": "雷蛇 Razer 北海巨妖标准版X",
+        "goodsIntro": "北海巨妖标准版升级款 头戴式游戏耳机 电竞耳麦 7.1 电脑...",
+        "goodsCoverImg": "/goods-img/7345c467-6c2d-4f30-a73d-83d675d5208c.jpg",
+        "sellingPrice": 299
+      },
+      {
+        "goodsId": 10178,
+        "goodsName": "华为原装降噪有线手机耳机Mate9 10P9P10Plu...",
+        "goodsIntro": "新蜂精选",
+        "goodsCoverImg": "/goods-img/d6565a7e-473b-4933-93c5-e646495c8c4c.jpg",
+        "sellingPrice": 39
+      },
+      {
+        "goodsId": 10182,
+        "goodsName": "荣耀原装三键线控带麦半入耳式耳机AM116(尊爵版)适用...",
+        "goodsIntro": "新蜂精选",
+        "goodsCoverImg": "/goods-img/6113a562-f3f1-408c-9b0d-78a84407caf7.jpg",
+        "sellingPrice": 49
+      },
+      {
+        "goodsId": 10183,
+        "goodsName": "诺基亚（NOKIA）BH-705 银白色 5.0真无线蓝...",
+        "goodsIntro": "新蜂精选",
+        "goodsCoverImg": "/goods-img/abb13d3a-3445-4b26-b8e9-44cbec227b5d.jpg",
+        "sellingPrice": 499
+      },
+      {
+        "goodsId": 10189,
+        "goodsName": "纽曼（Newmine）NM-LK06 全兼容线控音乐手机...",
+        "goodsIntro": "新蜂精选",
+        "goodsCoverImg": "/goods-img/0b02244f-6908-4ccb-a9d2-ccb5a462e30e.jpg",
+        "sellingPrice": 9
+      }
+    ]
+  }
+}
+[通过] 搜索'手机'成功，返回10件商品
+
+[清理] 已删除测试用户：13817837834

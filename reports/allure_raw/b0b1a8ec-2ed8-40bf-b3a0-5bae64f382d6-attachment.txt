@@ -1,0 +1,9 @@
+2026-07-12 00:32:06 [INFO] [http_client.py:28] [GET] http://localhost:28019/api/v1/orders
+2026-07-12 00:32:06 [INFO] [http_client.py:30] Params: {'pageNumber': 1, 'pageSize': 10}
+2026-07-12 00:32:06 [INFO] [http_client.py:73] Status: 404
+2026-07-12 00:32:06 [INFO] [http_client.py:77] Response: {
+  "timestamp": 1783787526146,
+  "status": 404,
+  "error": "Not Found",
+  "path": "/api/v1/orders"
+}

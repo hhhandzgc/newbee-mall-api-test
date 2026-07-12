@@ -1,0 +1,24 @@
+2026-07-12 10:36:24 [INFO] [http_client.py:28] [GET] http://localhost:28019/api/v1/categories
+2026-07-12 10:36:24 [INFO] [http_client.py:73] Status: 200
+2026-07-12 10:36:24 [INFO] [http_client.py:77] Response: {
+  "resultCode": 200,
+  "message": "SUCCESS",
+  "data": [
+    {
+      "categoryId": 15,
+      "categoryLevel": 1,
+      "categoryName": "家电 数码 手机",
+      "secondLevelCategoryVOS": [
+        {
+          "categoryId": 17,
+          "parentId": 15,
+          "categoryLevel": 2,
+          "categoryName": "家电",
+          "thirdLevelCategoryVOS": [
+            {
+              "categoryId": 30,
+              "categoryLevel": 3,
+              "categoryName": "卷发器"
+            },
+            {
+         

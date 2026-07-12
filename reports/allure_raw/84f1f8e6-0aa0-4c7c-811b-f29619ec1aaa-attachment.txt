@@ -1,0 +1,8 @@
+[32mINFO    [0m newbee_mall_test:base_page.py:35 【Page初始化】HomePage
+[32mINFO    [0m newbee_mall_test:base_page.py:118 【打开页面】http://localhost:8080
+[32mINFO    [0m newbee_mall_test:home_page.py:54 【首页】已打开
+[32mINFO    [0m newbee_mall_test:base_page.py:70 【查找元素】css selector = .goods-item (多个)
+[32mINFO    [0m newbee_mall_test:base_page.py:35 【Page初始化】HomePage
+[32mINFO    [0m newbee_mall_test:base_page.py:118 【打开页面】http://localhost:8080
+[32mINFO    [0m newbee_mall_test:home_page.py:54 【首页】已打开
+[32mINFO    [0m newbee_mall_test:base_page.py:70 【查找元素】css selector = .goods-item (多个)

@@ -1,0 +1,140 @@
+lient.py:77] Response: {
+  "resultCode": 200,
+  "message": "SUCCESS",
+  "data": "50a62e1a9c540fa671b5af42ed3ddae5"
+}
+2026-07-11 23:59:42 [INFO] [http_client.py:86] [Token已设置] 50a62e1a9c540fa671b5...
+2026-07-11 23:59:42 [INFO] [http_client.py:37] [POST] http://localhost:28019/api/v1/shop-cart
+2026-07-11 23:59:42 [INFO] [http_client.py:39] Body: {"goodsId": 10893, "goodsCount": 1}
+2026-07-11 23:59:42 [INFO] [http_client.py:73] Status: 200
+2026-07-11 23:59:42 [INFO] [http_client.py:77] Response: {
+  "resultCode": 200,
+  "message": "SUCCESS",
+  "data": null
+}
+2026-07-11 23:59:42 [INFO] [http_client.py:28] [GET] http://localhost:28019/api/v1/shop-cart
+2026-07-11 23:59:42 [INFO] [http_client.py:73] Status: 200
+2026-07-11 23:59:42 [INFO] [http_client.py:77] Response: {
+  "resultCode": 200,
+  "message": "SUCCESS",
+  "data": [
+    {
+      "cartItemId": 20,
+      "goodsId": 10893,
+      "goodsCount": 1,
+      "goodsName": "HUAWEI Mate 30 Pro 双4000万徕卡电...",
+      "goodsCoverImg": "/goods-img/mate30p2.png",
+      "sellingPrice": 5399
+    }
+  ]
+}
+2026-07-11 23:59:42 [INFO] [http_client.py:37] [POST] http://localhost:28019/api/v1/shop-cart
+2026-07-11 23:59:42 [INFO] [http_client.py:39] Body: {"goodsId": 10893, "goodsCount": 1}
+2026-07-11 23:59:42 [INFO] [http_client.py:73] Status: 200
+2026-07-11 23:59:42 [INFO] [http_client.py:77] Response: {
+  "resultCode": 500,
+  "message": "已存在！无需重复添加！",
+  "data": null
+}
+2026-07-11 23:59:42 [INFO] [http_client.py:28] [GET] http://localhost:28019/api/v1/shop-cart
+2026-07-11 23:59:42 [INFO] [http_client.py:73] Status: 200
+2026-07-11 23:59:42 [INFO] [http_client.py:77] Response: {
+  "resultCode": 200,
+  "message": "SUCCESS",
+  "data": [
+    {
+      "cartItemId": 20,
+      "goodsId": 10893,
+      "goodsCount": 1,
+      "goodsName": "HUAWEI Mate 30 Pro 双4000万徕卡电...",
+      "goodsCoverImg": "/goods-img/mate30p2.png",
+      "sellingPrice": 5399
+    }
+  ]
+}
+2026-07-11 23:59:42 [INFO] [http_client.py:37] [POST] http://localhost:28019/api/v1/shop-cart
+2026-07-11 23:59:42 [INFO] [http_client.py:39] Body: {"goodsId": 10893, "goodsCount": 2}
+2026-07-11 23:59:42 [INFO] [http_client.py:73] Status: 200
+2026-07-11 23:59:42 [INFO] [http_client.py:77] Response: {
+  "resultCode": 500,
+  "message": "已存在！无需重复添加！",
+  "data": null
+}
+2026-07-11 23:59:42 [INFO] [http_client.py:28] [GET] http://localhost:28019/api/v1/search
+2026-07-11 23:59:42 [INFO] [http_client.py:30] Params: {'keyword': '手机', 'pageNumber': 1, 'pageSize': 10}
+2026-07-11 23:59:42 [INFO] [http_client.py:73] Status: 200
+2026-07-11 23:59:42 [INFO] [http_client.py:77] Response: {
+  "resultCode": 200,
+  "message": "SUCCESS",
+  "data": {
+    "totalCount": 298,
+    "pageSize": 10,
+    "totalPage": 30,
+    "currPage": 1,
+    "list": [
+      {
+        "goodsId": 10161,
+        "goodsName": "荣耀原装三键线控带麦半入耳式耳机AM116(尊爵版)适用...",
+        "goodsIntro": "新蜂精选",
+        "goodsCoverImg": "/goods-img/183481c3-47ff-4b2e-926f-b02b926ac02c.jpg",
+        "sellingPrice": 49
+      },
+      {
+        "goodsId": 10162,
+        "goodsName": "诺基亚（NOKIA）BH-705 银白色 5.0真无线蓝...",
+        "goodsIntr
+2026-07-11 23:59:42 [INFO] [http_client.py:28] [GET] http://localhost:28019/api/v1/goods/detail/10893
+2026-07-11 23:59:42 [INFO] [http_client.py:73] Status: 200
+2026-07-11 23:59:42 [INFO] [http_client.py:77] Response: {
+  "resultCode": 200,
+  "message": "SUCCESS",
+  "data": {
+    "goodsId": 10893,
+    "goodsName": "HUAWEI Mate 30 Pro 双4000万徕卡电影四摄",
+    "goodsIntro": "超曲面OLED环幕屏 8GB+256GB 全网通4G版（星河银）",
+    "goodsCoverImg": "/goods-img/mate30p2.png",
+    "sellingPrice": 5399,
+    "tag": "重构想象",
+    "goodsCarouselList": [
+      "/goods-img/mate30p2.png"
+    ],
+    "originalPrice": 5399,
+    "goodsDetailContent": "<div id=\"activity_header\" style=\"margin:0px;padding:0px;color:#666666;font-family:tahoma, arial, 
+2026-07-11 23:59:42 [INFO] [http_client.py:28] [GET] http://localhost:28019/api/v1/categories
+2026-07-11 23:59:42 [INFO] [http_client.py:73] Status: 200
+2026-07-11 23:59:42 [INFO] [http_client.py:77] Response: {
+  "resultCode": 200,
+  "message": "SUCCESS",
+  "data": [
+    {
+      "categoryId": 15,
+      "categoryLevel": 1,
+      "categoryName": "家电 数码 手机",
+      "secondLevelCategoryVOS": [
+        {
+          "categoryId": 17,
+          "parentId": 15,
+          "categoryLevel": 2,
+          "categoryName": "家电",
+          "thirdLevelCategoryVOS": [
+            {
+              "categoryId": 30,
+              "categoryLevel": 3,
+              "categoryName": "卷发器"
+            },
+            {
+         
+2026-07-11 23:59:42 [INFO] [http_client.py:28] [GET] http://localhost:28019/api/v1/search
+2026-07-11 23:59:42 [INFO] [http_client.py:30] Params: {'keyword': 'abcdefg12345不存在', 'pageNumber': 1, 'pageSize': 10}
+2026-07-11 23:59:42 [INFO] [http_client.py:73] Status: 200
+2026-07-11 23:59:42 [INFO] [http_client.py:77] Response: {
+  "resultCode": 200,
+  "message": "SUCCESS",
+  "data": {
+    "totalCount": 0,
+    "pageSize": 10,
+    "totalPage": 0,
+    "currPage": 1,
+    "list": []
+  }
+}

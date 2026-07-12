@@ -1,0 +1,77 @@
+8] 【打开页面】http://localhost:8080
+2026-07-12 10:01:45 [INFO] [home_page.py:47] 【首页】已打开
+2026-07-12 10:01:47 [INFO] [conftest.py:103] 【浏览器】已关闭
+2026-07-12 10:08:23 [INFO] [base_page.py:35] 【Page初始化】HomePage
+2026-07-12 10:08:23 [INFO] [base_page.py:118] 【打开页面】http://localhost:8080
+2026-07-12 10:08:25 [INFO] [home_page.py:47] 【首页】已打开
+2026-07-12 10:08:25 [INFO] [base_page.py:126] 【页面标题】Vite App
+2026-07-12 10:08:26 [INFO] [base_page.py:147] 【截图】首页加载成功
+2026-07-12 10:08:28 [INFO] [conftest.py:103] 【浏览器】已关闭
+2026-07-12 10:12:02 [INFO] [base_page.py:35] 【Page初始化】HomePage
+2026-07-12 10:12:02 [INFO] [base_page.py:118] 【打开页面】http://localhost:8080
+2026-07-12 10:12:04 [INFO] [home_page.py:47] 【首页】已打开
+2026-07-12 10:12:04 [INFO] [base_page.py:126] 【页面标题】Vite App
+2026-07-12 10:12:04 [INFO] [base_page.py:147] 【截图】首页加载成功
+2026-07-12 10:12:06 [INFO] [conftest.py:103] 【浏览器】已关闭
+2026-07-12 10:12:59 [INFO] [base_page.py:35] 【Page初始化】HomePage
+2026-07-12 10:12:59 [INFO] [base_page.py:118] 【打开页面】http://localhost:8080
+2026-07-12 10:13:01 [INFO] [home_page.py:47] 【首页】已打开
+2026-07-12 10:13:01 [INFO] [base_page.py:126] 【页面标题】Vite App
+2026-07-12 10:13:01 [INFO] [base_page.py:147] 【截图】首页加载成功
+2026-07-12 10:13:03 [INFO] [conftest.py:103] 【浏览器】已关闭
+2026-07-12 10:13:04 [INFO] [base_page.py:35] 【Page初始化】HomePage
+2026-07-12 10:13:04 [INFO] [base_page.py:118] 【打开页面】http://localhost:8080
+2026-07-12 10:13:06 [INFO] [home_page.py:47] 【首页】已打开
+2026-07-12 10:13:06 [INFO] [base_page.py:49] 【查找元素】css selector = .header-search input
+2026-07-12 10:13:16 [ERROR] [base_page.py:57] 【查找失败】元素未找到：css selector = .header-search input
+2026-07-12 10:13:19 [INFO] [conftest.py:103] 【浏览器】已关闭
+2026-07-12 10:13:21 [INFO] [base_page.py:35] 【Page初始化】HomePage
+2026-07-12 10:13:21 [INFO] [base_page.py:118] 【打开页面】http://localhost:8080
+2026-07-12 10:13:23 [INFO] [home_page.py:47] 【首页】已打开
+2026-07-12 10:13:23 [INFO] [base_page.py:49] 【查找元素】css selector = .header-search input
+2026-07-12 10:13:33 [ERROR] [base_page.py:57] 【查找失败】元素未找到：css selector = .header-search input
+2026-07-12 10:13:36 [INFO] [conftest.py:103] 【浏览器】已关闭
+2026-07-12 10:13:38 [INFO] [base_page.py:35] 【Page初始化】HomePage
+2026-07-12 10:13:38 [INFO] [base_page.py:118] 【打开页面】http://localhost:8080
+2026-07-12 10:13:40 [INFO] [home_page.py:47] 【首页】已打开
+2026-07-12 10:13:40 [INFO] [base_page.py:49] 【查找元素】css selector = .header-search input
+2026-07-12 10:13:50 [ERROR] [base_page.py:57] 【查找失败】元素未找到：css selector = .header-search input
+2026-07-12 10:13:53 [INFO] [conftest.py:103] 【浏览器】已关闭
+2026-07-12 10:13:54 [INFO] [base_page.py:35] 【Page初始化】HomePage
+2026-07-12 10:13:54 [INFO] [base_page.py:118] 【打开页面】http://localhost:8080
+2026-07-12 10:13:56 [INFO] [home_page.py:47] 【首页】已打开
+2026-07-12 10:13:56 [INFO] [base_page.py:70] 【查找元素】css selector = .good (多个)
+2026-07-12 10:13:56 [INFO] [home_page.py:73] 【首页】商品数量：3
+2026-07-12 10:13:56 [INFO] [base_page.py:147] 【截图】商品列表
+2026-07-12 10:13:58 [INFO] [conftest.py:103] 【浏览器】已关闭
+2026-07-12 10:21:18 [INFO] [base_page.py:35] 【Page初始化】HomePage
+2026-07-12 10:21:18 [INFO] [base_page.py:118] 【打开页面】http://localhost:8080
+2026-07-12 10:21:23 [INFO] [home_page.py:49] 【首页】已打开
+2026-07-12 10:21:23 [INFO] [base_page.py:126] 【页面标题】Vite App
+2026-07-12 10:21:23 [INFO] [base_page.py:147] 【截图】首页加载成功
+2026-07-12 10:21:25 [INFO] [conftest.py:103] 【浏览器】已关闭
+2026-07-12 10:21:26 [INFO] [base_page.py:35] 【Page初始化】HomePage
+2026-07-12 10:21:26 [INFO] [base_page.py:118] 【打开页面】http://localhost:8080
+2026-07-12 10:21:31 [INFO] [home_page.py:49] 【首页】已打开
+2026-07-12 10:21:31 [INFO] [base_page.py:49] 【查找元素】css selector = .header-search input
+2026-07-12 10:21:42 [ERROR] [base_page.py:57] 【查找失败】元素未找到：css selector = .header-search input
+2026-07-12 10:21:44 [INFO] [conftest.py:103] 【浏览器】已关闭
+2026-07-12 10:21:46 [INFO] [base_page.py:35] 【Page初始化】HomePage
+2026-07-12 10:21:46 [INFO] [base_page.py:118] 【打开页面】http://localhost:8080
+2026-07-12 10:21:51 [INFO] [home_page.py:49] 【首页】已打开
+2026-07-12 10:21:51 [INFO] [base_page.py:49] 【查找元素】css selector = .header-search input
+2026-07-12 10:22:02 [ERROR] [base_page.py:57] 【查找失败】元素未找到：css selector = .header-search input
+2026-07-12 10:22:04 [INFO] [conftest.py:103] 【浏览器】已关闭
+2026-07-12 10:22:06 [INFO] [base_page.py:35] 【Page初始化】HomePage
+2026-07-12 10:22:06 [INFO] [base_page.py:118] 【打开页面】http://localhost:8080
+2026-07-12 10:22:11 [INFO] [home_page.py:49] 【首页】已打开
+2026-07-12 10:22:11 [INFO] [base_page.py:49] 【查找元素】css selector = .header-search input
+2026-07-12 10:22:22 [ERROR] [base_page.py:57] 【查找失败】元素未找到：css selector = .header-search input
+2026-07-12 10:22:24 [INFO] [conftest.py:103] 【浏览器】已关闭
+2026-07-12 10:22:25 [INFO] [base_page.py:35] 【Page初始化】HomePage
+2026-07-12 10:22:25 [INFO] [base_page.py:118] 【打开页面】http://localhost:8080
+2026-07-12 10:22:30 [INFO] [home_page.py:49] 【首页】已打开
+2026-07-12 10:22:30 [INFO] [base_page.py:70] 【查找元素】css selector = .good (多个)
+2026-07-12 10:22:30 [INFO] [home_page.py:75] 【首页】商品数量：3
+2026-07-12 10:22:30 [INFO] [base_page.py:147] 【截图】商品列表
+2026-07-12 10:22:32 [INFO] [conftest.py:103] 【浏览器】已关闭

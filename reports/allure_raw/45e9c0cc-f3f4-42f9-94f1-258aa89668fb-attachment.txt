@@ -1,0 +1,6 @@
+2026-07-12 10:12:59 [INFO] [base_page.py:35] 【Page初始化】HomePage
+2026-07-12 10:12:59 [INFO] [base_page.py:118] 【打开页面】http://localhost:8080
+2026-07-12 10:13:01 [INFO] [home_page.py:47] 【首页】已打开
+2026-07-12 10:13:01 [INFO] [base_page.py:126] 【页面标题】Vite App
+2026-07-12 10:13:01 [INFO] [base_page.py:147] 【截图】首页加载成功
+2026-07-12 10:13:03 [INFO] [conftest.py:103] 【浏览器】已关闭

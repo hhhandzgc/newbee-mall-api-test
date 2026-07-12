@@ -1,0 +1,38 @@
+
+[POST] http://localhost:28019/api/v1/user/register
+Body: {"loginName": "13817837834", "password": "123456"}
+Status: 200
+Response: {
+  "resultCode": 200,
+  "message": "SUCCESS",
+  "data": null
+}
+
+[POST] http://localhost:28019/api/v1/user/login
+Body: {"loginName": "13817837834", "passwordMd5": "e10adc3949ba59abbe56e057f20f883e"}
+Status: 200
+Response: {
+  "resultCode": 200,
+  "message": "SUCCESS",
+  "data": "6d3fb546bb8df278fdfaab9563b118dc"
+}
+
+[Token已设置] 6d3fb546bb8df278fdfa...
+
+[GET] http://localhost:28019/api/v1/search
+Params: {'keyword': 'abcdefg12345不存在', 'pageNumber': 1, 'pageSize': 10}
+Status: 200
+Response: {
+  "resultCode": 200,
+  "message": "SUCCESS",
+  "data": {
+    "totalCount": 0,
+    "pageSize": 10,
+    "totalPage": 0,
+    "currPage": 1,
+    "list": []
+  }
+}
+[通过] 无结果搜索处理正确
+
+[清理] 已删除测试用户：13817837834

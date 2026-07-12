@@ -1,0 +1,17 @@
+2026-07-12 00:04:45 [INFO] [http_client.py:28] [GET] http://localhost:28019/api/v1/goods/detail/10893
+2026-07-12 00:04:45 [INFO] [http_client.py:73] Status: 200
+2026-07-12 00:04:45 [INFO] [http_client.py:77] Response: {
+  "resultCode": 200,
+  "message": "SUCCESS",
+  "data": {
+    "goodsId": 10893,
+    "goodsName": "HUAWEI Mate 30 Pro 双4000万徕卡电影四摄",
+    "goodsIntro": "超曲面OLED环幕屏 8GB+256GB 全网通4G版（星河银）",
+    "goodsCoverImg": "/goods-img/mate30p2.png",
+    "sellingPrice": 5399,
+    "tag": "重构想象",
+    "goodsCarouselList": [
+      "/goods-img/mate30p2.png"
+    ],
+    "originalPrice": 5399,
+    "goodsDetailContent": "<div id=\"activity_header\" style=\"margin:0px;padding:0px;color:#666666;font-family:tahoma, arial, 

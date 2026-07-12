@@ -1,0 +1,12 @@
+2026-07-12 10:01:31 [INFO] [base_page.py:35] 【Page初始化】HomePage
+2026-07-12 10:01:31 [INFO] [base_page.py:118] 【打开页面】http://localhost:8080
+2026-07-12 10:01:33 [INFO] [home_page.py:47] 【首页】已打开
+2026-07-12 10:01:35 [INFO] [conftest.py:103] 【浏览器】已关闭
+2026-07-12 10:01:37 [INFO] [base_page.py:35] 【Page初始化】HomePage
+2026-07-12 10:01:37 [INFO] [base_page.py:118] 【打开页面】http://localhost:8080
+2026-07-12 10:01:39 [INFO] [home_page.py:47] 【首页】已打开
+2026-07-12 10:01:41 [INFO] [conftest.py:103] 【浏览器】已关闭
+2026-07-12 10:01:43 [INFO] [base_page.py:35] 【Page初始化】HomePage
+2026-07-12 10:01:43 [INFO] [base_page.py:118] 【打开页面】http://localhost:8080
+2026-07-12 10:01:45 [INFO] [home_page.py:47] 【首页】已打开
+2026-07-12 10:01:47 [INFO] [conftest.py:103] 【浏览器】已关闭

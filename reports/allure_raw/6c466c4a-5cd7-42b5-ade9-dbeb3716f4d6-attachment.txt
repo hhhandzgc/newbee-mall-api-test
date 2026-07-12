@@ -1,0 +1,1 @@
+[32mINFO    [0m newbee_mall_test:test_user.py:25 注册用户名: test_user_1783784233

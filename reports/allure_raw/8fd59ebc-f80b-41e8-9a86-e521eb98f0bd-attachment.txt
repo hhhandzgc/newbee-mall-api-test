@@ -1,0 +1,9 @@
+[32mINFO    [0m newbee_mall_test:http_client.py:28 [GET] http://localhost:28019/api/v1/orders
+[32mINFO    [0m newbee_mall_test:http_client.py:30 Params: {'pageNumber': 1, 'pageSize': 10}
+[32mINFO    [0m newbee_mall_test:http_client.py:73 Status: 404
+[32mINFO    [0m newbee_mall_test:http_client.py:77 Response: {
+  "timestamp": 1783785793176,
+  "status": 404,
+  "error": "Not Found",
+  "path": "/api/v1/orders"
+}

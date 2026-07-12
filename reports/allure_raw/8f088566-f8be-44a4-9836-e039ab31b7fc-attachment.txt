@@ -1,0 +1,14 @@
+2026-07-12 00:03:13 [INFO] [http_client.py:28] [GET] http://localhost:28019/api/v1/search
+2026-07-12 00:03:13 [INFO] [http_client.py:30] Params: {'keyword': 'abcdefg12345不存在', 'pageNumber': 1, 'pageSize': 10}
+2026-07-12 00:03:13 [INFO] [http_client.py:73] Status: 200
+2026-07-12 00:03:13 [INFO] [http_client.py:77] Response: {
+  "resultCode": 200,
+  "message": "SUCCESS",
+  "data": {
+    "totalCount": 0,
+    "pageSize": 10,
+    "totalPage": 0,
+    "currPage": 1,
+    "list": []
+  }
+}

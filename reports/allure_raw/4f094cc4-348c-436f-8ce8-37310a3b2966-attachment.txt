@@ -1,0 +1,116 @@
+23 [INFO] [http_client.py:72] Response: {
+  "resultCode": 500,
+  "message": "请输入正确的手机号！",
+  "data": null
+}
+2026-07-11 23:47:23 [INFO] [http_client.py:32] [POST] http://localhost:28019/api/v1/user/login
+2026-07-11 23:47:23 [INFO] [http_client.py:34] Body: {"loginName": "test_user_001", "password": "wrong_password"}
+2026-07-11 23:47:23 [INFO] [http_client.py:68] Status: 200
+2026-07-11 23:47:23 [INFO] [http_client.py:72] Response: {
+  "resultCode": 510,
+  "message": "密码不能为空",
+  "data": null
+}
+2026-07-11 23:51:22 [INFO] [http_client.py:37] [POST] http://localhost:28019/api/v1/user/register
+2026-07-11 23:51:22 [INFO] [http_client.py:39] Body: {"loginName": "13800138000", "password": "123456"}
+2026-07-11 23:51:22 [INFO] [http_client.py:73] Status: 200
+2026-07-11 23:51:22 [INFO] [http_client.py:77] Response: {
+  "resultCode": 200,
+  "message": "SUCCESS",
+  "data": null
+}
+2026-07-11 23:51:22 [INFO] [http_client.py:37] [POST] http://localhost:28019/api/v1/user/login
+2026-07-11 23:51:22 [INFO] [http_client.py:39] Body: {"loginName": "13800138000", "passwordMd5": "e10adc3949ba59abbe56e057f20f883e"}
+2026-07-11 23:51:22 [INFO] [http_client.py:73] Status: 200
+2026-07-11 23:51:22 [INFO] [http_client.py:77] Response: {
+  "resultCode": 200,
+  "message": "SUCCESS",
+  "data": "5f679e3a9713375b1348fe1edfaace14"
+}
+2026-07-11 23:51:22 [INFO] [http_client.py:86] [Token已设置] 5f679e3a9713375b1348...
+2026-07-11 23:51:22 [INFO] [http_client.py:37] [POST] http://localhost:28019/shop-cart
+2026-07-11 23:51:22 [INFO] [http_client.py:39] Body: {"goodsId": 10893, "goodsCount": 1}
+2026-07-11 23:51:22 [INFO] [http_client.py:73] Status: 404
+2026-07-11 23:51:22 [INFO] [http_client.py:77] Response: {
+  "timestamp": 1783785082696,
+  "status": 404,
+  "error": "Not Found",
+  "path": "/shop-cart"
+}
+2026-07-11 23:51:22 [INFO] [http_client.py:37] [POST] http://localhost:28019/shop-cart
+2026-07-11 23:51:22 [INFO] [http_client.py:39] Body: {"goodsId": 10893, "goodsCount": 1}
+2026-07-11 23:51:22 [INFO] [http_client.py:73] Status: 404
+2026-07-11 23:51:22 [INFO] [http_client.py:77] Response: {
+  "timestamp": 1783785082818,
+  "status": 404,
+  "error": "Not Found",
+  "path": "/shop-cart"
+}
+2026-07-11 23:51:22 [INFO] [http_client.py:28] [GET] http://localhost:28019/shop-cart
+2026-07-11 23:51:22 [INFO] [http_client.py:73] Status: 404
+2026-07-11 23:51:22 [INFO] [http_client.py:77] Response: {
+  "timestamp": 1783785082821,
+  "status": 404,
+  "error": "Not Found",
+  "path": "/shop-cart"
+}
+2026-07-11 23:51:22 [INFO] [http_client.py:37] [POST] http://localhost:28019/shop-cart
+2026-07-11 23:51:22 [INFO] [http_client.py:39] Body: {"goodsId": 10893, "goodsCount": 2}
+2026-07-11 23:51:22 [INFO] [http_client.py:73] Status: 404
+2026-07-11 23:51:22 [INFO] [http_client.py:77] Response: {
+  "timestamp": 1783785082834,
+  "status": 404,
+  "error": "Not Found",
+  "path": "/shop-cart"
+}
+2026-07-11 23:51:22 [INFO] [http_client.py:28] [GET] http://localhost:28019/search
+2026-07-11 23:51:22 [INFO] [http_client.py:30] Params: {'keyword': '手机', 'pageNumber': 1, 'pageSize': 10}
+2026-07-11 23:51:22 [INFO] [http_client.py:73] Status: 404
+2026-07-11 23:51:22 [INFO] [http_client.py:77] Response: {
+  "timestamp": 1783785082850,
+  "status": 404,
+  "error": "Not Found",
+  "path": "/search"
+}
+2026-07-11 23:51:22 [INFO] [http_client.py:28] [GET] http://localhost:28019/goods/detail/10893
+2026-07-11 23:51:22 [INFO] [http_client.py:73] Status: 404
+2026-07-11 23:51:22 [INFO] [http_client.py:77] Response: {
+  "timestamp": 1783785082864,
+  "status": 404,
+  "error": "Not Found",
+  "path": "/goods/detail/10893"
+}
+2026-07-11 23:51:22 [INFO] [http_client.py:28] [GET] http://localhost:28019/categories
+2026-07-11 23:51:22 [INFO] [http_client.py:73] Status: 404
+2026-07-11 23:51:22 [INFO] [http_client.py:77] Response: {
+  "timestamp": 1783785082876,
+  "status": 404,
+  "error": "Not Found",
+  "path": "/categories"
+}
+2026-07-11 23:51:22 [INFO] [http_client.py:28] [GET] http://localhost:28019/goods/category
+2026-07-11 23:51:22 [INFO] [http_client.py:73] Status: 404
+2026-07-11 23:51:22 [INFO] [http_client.py:77] Response: {
+  "timestamp": 1783785082880,
+  "status": 404,
+  "error": "Not Found",
+  "path": "/goods/category"
+}
+2026-07-11 23:51:22 [INFO] [http_client.py:28] [GET] http://localhost:28019/search
+2026-07-11 23:51:22 [INFO] [http_client.py:30] Params: {'keyword': 'abcdefg12345不存在', 'pageNumber': 1, 'pageSize': 10}
+2026-07-11 23:51:22 [INFO] [http_client.py:73] Status: 404
+2026-07-11 23:51:22 [INFO] [http_client.py:77] Response: {
+  "timestamp": 1783785082893,
+  "status": 404,
+  "error": "Not Found",
+  "path": "/search"
+}
+2026-07-11 23:51:22 [INFO] [http_client.py:37] [POST] http://localhost:28019/shop-cart
+2026-07-11 23:51:22 [INFO] [http_client.py:39] Body: {"goodsId": 10893, "goodsCount": 1}
+2026-07-11 23:51:22 [INFO] [http_client.py:73] Status: 404
+2026-07-11 23:51:22 [INFO] [http_client.py:77] Response: {
+  "timestamp": 1783785082908,
+  "status": 404,
+  "error": "Not Found",
+  "path": "/shop-cart"
+}

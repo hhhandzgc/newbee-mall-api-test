@@ -1,0 +1,32 @@
+
+[POST] http://localhost:28019/api/v1/user/register
+Body: {"loginName": "13817837834", "password": "123456"}
+Status: 200
+Response: {
+  "resultCode": 200,
+  "message": "SUCCESS",
+  "data": null
+}
+
+[POST] http://localhost:28019/api/v1/user/login
+Body: {"loginName": "13817837834", "passwordMd5": "e10adc3949ba59abbe56e057f20f883e"}
+Status: 200
+Response: {
+  "resultCode": 200,
+  "message": "SUCCESS",
+  "data": "8d41cf6c16ce2eae133d2e7e9ef75edf"
+}
+
+[Token已设置] 8d41cf6c16ce2eae133d...
+
+[POST] http://localhost:28019/api/v1/shop-cart
+Body: {"goodsId": 10893, "goodsCount": 2}
+Status: 200
+Response: {
+  "resultCode": 200,
+  "message": "SUCCESS",
+  "data": null
+}
+[通过] 数据库校验成功：购物车已写入，数量=2
+
+[清理] 已删除测试用户：13817837834

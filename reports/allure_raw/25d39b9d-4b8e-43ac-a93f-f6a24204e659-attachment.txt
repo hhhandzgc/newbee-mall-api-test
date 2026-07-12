@@ -1,0 +1,110 @@
+6-07-12 10:36:24 [INFO] [http_client.py:28] [GET] http://localhost:28019/api/v1/search
+2026-07-12 10:36:24 [INFO] [http_client.py:30] Params: {'keyword': 'abcdefg12345不存在', 'pageNumber': 1, 'pageSize': 10}
+2026-07-12 10:36:24 [INFO] [http_client.py:73] Status: 200
+2026-07-12 10:36:24 [INFO] [http_client.py:77] Response: {
+  "resultCode": 200,
+  "message": "SUCCESS",
+  "data": {
+    "totalCount": 0,
+    "pageSize": 10,
+    "totalPage": 0,
+    "currPage": 1,
+    "list": []
+  }
+}
+2026-07-12 10:36:24 [INFO] [http_client.py:37] [POST] http://localhost:28019/api/v1/shop-cart
+2026-07-12 10:36:24 [INFO] [http_client.py:39] Body: {"goodsId": 10893, "goodsCount": 1}
+2026-07-12 10:36:24 [INFO] [http_client.py:73] Status: 200
+2026-07-12 10:36:24 [INFO] [http_client.py:77] Response: {
+  "resultCode": 200,
+  "message": "SUCCESS",
+  "data": null
+}
+2026-07-12 10:36:24 [INFO] [http_client.py:28] [GET] http://localhost:28019/api/v1/shop-cart
+2026-07-12 10:36:24 [INFO] [http_client.py:73] Status: 200
+2026-07-12 10:36:24 [INFO] [http_client.py:77] Response: {
+  "resultCode": 200,
+  "message": "SUCCESS",
+  "data": [
+    {
+      "cartItemId": 34,
+      "goodsId": 10893,
+      "goodsCount": 1,
+      "goodsName": "HUAWEI Mate 30 Pro 双4000万徕卡电...",
+      "goodsCoverImg": "/goods-img/mate30p2.png",
+      "sellingPrice": 5399
+    }
+  ]
+}
+2026-07-12 10:36:24 [INFO] [http_client.py:37] [POST] http://localhost:28019/api/v1/saveOrder
+2026-07-12 10:36:24 [INFO] [http_client.py:39] Body: {"cartItemIds": [34]}
+2026-07-12 10:36:24 [INFO] [http_client.py:73] Status: 200
+2026-07-12 10:36:24 [INFO] [http_client.py:77] Response: {
+  "resultCode": 500,
+  "message": "参数错误！",
+  "data": null
+}
+2026-07-12 10:36:24 [INFO] [http_client.py:28] [GET] http://localhost:28019/api/v1/orders
+2026-07-12 10:36:24 [INFO] [http_client.py:30] Params: {'pageNumber': 1, 'pageSize': 10}
+2026-07-12 10:36:24 [INFO] [http_client.py:73] Status: 404
+2026-07-12 10:36:24 [INFO] [http_client.py:77] Response: {
+  "timestamp": 1783823784111,
+  "status": 404,
+  "error": "Not Found",
+  "path": "/api/v1/orders"
+}
+2026-07-12 10:36:25 [INFO] [base_page.py:35] 【Page初始化】HomePage
+2026-07-12 10:36:25 [INFO] [base_page.py:118] 【打开页面】http://localhost:8080
+2026-07-12 10:36:30 [INFO] [home_page.py:49] 【首页】已打开
+2026-07-12 10:36:30 [INFO] [base_page.py:126] 【页面标题】Vite App
+2026-07-12 10:36:30 [INFO] [base_page.py:147] 【截图】首页加载成功
+2026-07-12 10:36:32 [INFO] [conftest.py:103] 【浏览器】已关闭
+2026-07-12 10:36:33 [INFO] [base_page.py:35] 【Page初始化】HomePage
+2026-07-12 10:36:33 [INFO] [base_page.py:118] 【打开页面】http://localhost:8080
+2026-07-12 10:36:38 [INFO] [home_page.py:49] 【首页】已打开
+2026-07-12 10:36:38 [INFO] [base_page.py:70] 【查找元素】css selector = .good (多个)
+2026-07-12 10:36:38 [INFO] [home_page.py:75] 【首页】商品数量：3
+2026-07-12 10:36:38 [INFO] [base_page.py:147] 【截图】商品列表
+2026-07-12 10:36:40 [INFO] [conftest.py:103] 【浏览器】已关闭
+2026-07-12 10:36:40 [INFO] [test_user.py:36] 【用例开始】test_register_success，手机号: 13883823800
+2026-07-12 10:36:40 [INFO] [http_client.py:37] [POST] http://localhost:28019/api/v1/user/register
+2026-07-12 10:36:40 [INFO] [http_client.py:39] Body: {"loginName": "13883823800", "password": "123456"}
+2026-07-12 10:36:40 [INFO] [http_client.py:73] Status: 200
+2026-07-12 10:36:40 [INFO] [http_client.py:77] Response: {
+  "resultCode": 200,
+  "message": "SUCCESS",
+  "data": null
+}
+2026-07-12 10:36:40 [INFO] [test_user.py:59] 【用例通过】test_register_success
+2026-07-12 10:36:40 [INFO] [http_client.py:37] [POST] http://localhost:28019/api/v1/user/register
+2026-07-12 10:36:40 [INFO] [http_client.py:39] Body: {"loginName": "13883823800", "password": "123456"}
+2026-07-12 10:36:40 [INFO] [http_client.py:73] Status: 200
+2026-07-12 10:36:40 [INFO] [http_client.py:77] Response: {
+  "resultCode": 500,
+  "message": "用户名已存在！",
+  "data": null
+}
+2026-07-12 10:36:40 [INFO] [http_client.py:37] [POST] http://localhost:28019/api/v1/user/register
+2026-07-12 10:36:40 [INFO] [http_client.py:39] Body: {"loginName": "13883823800", "password": "123456"}
+2026-07-12 10:36:40 [INFO] [http_client.py:73] Status: 200
+2026-07-12 10:36:40 [INFO] [http_client.py:77] Response: {
+  "resultCode": 500,
+  "message": "用户名已存在！",
+  "data": null
+}
+2026-07-12 10:36:40 [INFO] [http_client.py:37] [POST] http://localhost:28019/api/v1/user/register
+2026-07-12 10:36:40 [INFO] [http_client.py:39] Body: {"loginName": "13800138001", "password": "123456"}
+2026-07-12 10:36:40 [INFO] [http_client.py:73] Status: 200
+2026-07-12 10:36:40 [INFO] [http_client.py:77] Response: {
+  "resultCode": 500,
+  "message": "用户名已存在！",
+  "data": null
+}
+2026-07-12 10:36:40 [INFO] [http_client.py:37] [POST] http://localhost:28019/api/v1/user/login
+2026-07-12 10:36:40 [INFO] [http_client.py:39] Body: {"loginName": "13800138001", "passwordMd5": "e10adc3949ba59abbe56e057f20f883e"}
+2026-07-12 10:36:40 [INFO] [http_client.py:73] Status: 200
+2026-07-12 10:36:40 [INFO] [http_client.py:77] Response: {
+  "resultCode": 200,
+  "message": "SUCCESS",
+  "data": "26e75fb60cc701d951e18b4b31a181e1"
+}

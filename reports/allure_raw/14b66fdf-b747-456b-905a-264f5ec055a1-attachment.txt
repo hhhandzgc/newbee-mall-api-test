@@ -1,0 +1,18 @@
+2026-07-12 10:33:21 [INFO] [base_page.py:35] 【Page初始化】HomePage
+2026-07-12 10:33:21 [INFO] [base_page.py:118] 【打开页面】http://localhost:8080
+2026-07-12 10:33:26 [INFO] [home_page.py:49] 【首页】已打开
+2026-07-12 10:33:26 [INFO] [base_page.py:49] 【查找元素】css selector = .header-search input
+2026-07-12 10:33:36 [ERROR] [base_page.py:57] 【查找失败】元素未找到：css selector = .header-search input
+2026-07-12 10:33:39 [INFO] [conftest.py:103] 【浏览器】已关闭
+2026-07-12 10:33:41 [INFO] [base_page.py:35] 【Page初始化】HomePage
+2026-07-12 10:33:41 [INFO] [base_page.py:118] 【打开页面】http://localhost:8080
+2026-07-12 10:33:46 [INFO] [home_page.py:49] 【首页】已打开
+2026-07-12 10:33:46 [INFO] [base_page.py:49] 【查找元素】css selector = .header-search input
+2026-07-12 10:33:56 [ERROR] [base_page.py:57] 【查找失败】元素未找到：css selector = .header-search input
+2026-07-12 10:33:59 [INFO] [conftest.py:103] 【浏览器】已关闭
+2026-07-12 10:34:01 [INFO] [base_page.py:35] 【Page初始化】HomePage
+2026-07-12 10:34:01 [INFO] [base_page.py:118] 【打开页面】http://localhost:8080
+2026-07-12 10:34:05 [INFO] [home_page.py:49] 【首页】已打开
+2026-07-12 10:34:05 [INFO] [base_page.py:49] 【查找元素】css selector = .header-search input
+2026-07-12 10:34:16 [ERROR] [base_page.py:57] 【查找失败】元素未找到：css selector = .header-search input
+2026-07-12 10:34:18 [INFO] [conftest.py:103] 【浏览器】已关闭

@@ -1,0 +1,34 @@
+{
+  "搜索商品" : {
+    "transaction" : "搜索商品",
+    "sampleCount" : 100,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 1.2000000000000002,
+    "medianResTime" : 1.0,
+    "minResTime" : 0.0,
+    "maxResTime" : 40.0,
+    "pct1ResTime" : 2.0,
+    "pct2ResTime" : 2.0,
+    "pct3ResTime" : 39.619999999999806,
+    "throughput" : 22.52252252252252,
+    "receivedKBytesPerSec" : 6.972304335585585,
+    "sentKBytesPerSec" : 4.728849943693693
+  },
+  "Total" : {
+    "transaction" : "Total",
+    "sampleCount" : 100,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 1.2000000000000002,
+    "medianResTime" : 1.0,
+    "minResTime" : 0.0,
+    "maxResTime" : 40.0,
+    "pct1ResTime" : 2.0,
+    "pct2ResTime" : 2.0,
+    "pct3ResTime" : 39.619999999999806,
+    "throughput" : 22.52252252252252,
+    "receivedKBytesPerSec" : 6.972304335585585,
+    "sentKBytesPerSec" : 4.728849943693693
+  }
+}

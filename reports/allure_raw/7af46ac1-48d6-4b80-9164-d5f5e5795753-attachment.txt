@@ -1,0 +1,49 @@
+
+[POST] http://localhost:28019/api/v1/user/register
+Body: {"loginName": "13817837834", "password": "123456"}
+Status: 200
+Response: {
+  "resultCode": 200,
+  "message": "SUCCESS",
+  "data": null
+}
+
+[POST] http://localhost:28019/api/v1/user/login
+Body: {"loginName": "13817837834", "passwordMd5": "e10adc3949ba59abbe56e057f20f883e"}
+Status: 200
+Response: {
+  "resultCode": 200,
+  "message": "SUCCESS",
+  "data": "77186b1615d13d01d8720799dec75a0c"
+}
+
+[Token已设置] 77186b1615d13d01d872...
+
+[POST] http://localhost:28019/api/v1/shop-cart
+Body: {"goodsId": 10893, "goodsCount": 1}
+Status: 200
+Response: {
+  "resultCode": 200,
+  "message": "SUCCESS",
+  "data": null
+}
+
+[GET] http://localhost:28019/api/v1/shop-cart
+Status: 200
+Response: {
+  "resultCode": 200,
+  "message": "SUCCESS",
+  "data": [
+    {
+      "cartItemId": 17,
+      "goodsId": 10893,
+      "goodsCount": 1,
+      "goodsName": "HUAWEI Mate 30 Pro 双4000万徕卡电...",
+      "goodsCoverImg": "/goods-img/mate30p2.png",
+      "sellingPrice": 5399
+    }
+  ]
+}
+[通过] 购物车查询成功，共1件商品
+
+[清理] 已删除测试用户：13817837834

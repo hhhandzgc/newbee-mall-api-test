@@ -1,0 +1,32 @@
+2026-07-12 00:04:45 [INFO] [http_client.py:37] [POST] http://localhost:28019/api/v1/shop-cart
+2026-07-12 00:04:45 [INFO] [http_client.py:39] Body: {"goodsId": 10893, "goodsCount": 1}
+2026-07-12 00:04:45 [INFO] [http_client.py:73] Status: 200
+2026-07-12 00:04:45 [INFO] [http_client.py:77] Response: {
+  "resultCode": 200,
+  "message": "SUCCESS",
+  "data": null
+}
+2026-07-12 00:04:45 [INFO] [http_client.py:28] [GET] http://localhost:28019/api/v1/shop-cart
+2026-07-12 00:04:45 [INFO] [http_client.py:73] Status: 200
+2026-07-12 00:04:45 [INFO] [http_client.py:77] Response: {
+  "resultCode": 200,
+  "message": "SUCCESS",
+  "data": [
+    {
+      "cartItemId": 25,
+      "goodsId": 10893,
+      "goodsCount": 1,
+      "goodsName": "HUAWEI Mate 30 Pro 双4000万徕卡电...",
+      "goodsCoverImg": "/goods-img/mate30p2.png",
+      "sellingPrice": 5399
+    }
+  ]
+}
+2026-07-12 00:04:45 [INFO] [http_client.py:37] [POST] http://localhost:28019/api/v1/saveOrder
+2026-07-12 00:04:45 [INFO] [http_client.py:39] Body: {"cartItemIds": [25]}
+2026-07-12 00:04:45 [INFO] [http_client.py:73] Status: 200
+2026-07-12 00:04:45 [INFO] [http_client.py:77] Response: {
+  "resultCode": 500,
+  "message": "参数错误！",
+  "data": null
+}

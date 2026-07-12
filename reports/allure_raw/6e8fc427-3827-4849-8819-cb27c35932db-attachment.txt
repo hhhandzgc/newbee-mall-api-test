@@ -1,0 +1,105 @@
+age初始化】HomePage
+2026-07-12 10:33:41 [INFO] [base_page.py:118] 【打开页面】http://localhost:8080
+2026-07-12 10:33:46 [INFO] [home_page.py:49] 【首页】已打开
+2026-07-12 10:33:46 [INFO] [base_page.py:49] 【查找元素】css selector = .header-search input
+2026-07-12 10:33:56 [ERROR] [base_page.py:57] 【查找失败】元素未找到：css selector = .header-search input
+2026-07-12 10:33:59 [INFO] [conftest.py:103] 【浏览器】已关闭
+2026-07-12 10:34:01 [INFO] [base_page.py:35] 【Page初始化】HomePage
+2026-07-12 10:34:01 [INFO] [base_page.py:118] 【打开页面】http://localhost:8080
+2026-07-12 10:34:05 [INFO] [home_page.py:49] 【首页】已打开
+2026-07-12 10:34:05 [INFO] [base_page.py:49] 【查找元素】css selector = .header-search input
+2026-07-12 10:34:16 [ERROR] [base_page.py:57] 【查找失败】元素未找到：css selector = .header-search input
+2026-07-12 10:34:18 [INFO] [conftest.py:103] 【浏览器】已关闭
+2026-07-12 10:34:19 [INFO] [base_page.py:35] 【Page初始化】HomePage
+2026-07-12 10:34:19 [INFO] [base_page.py:118] 【打开页面】http://localhost:8080
+2026-07-12 10:34:25 [INFO] [home_page.py:49] 【首页】已打开
+2026-07-12 10:34:25 [INFO] [base_page.py:70] 【查找元素】css selector = .good (多个)
+2026-07-12 10:34:25 [INFO] [home_page.py:75] 【首页】商品数量：3
+2026-07-12 10:34:25 [INFO] [base_page.py:147] 【截图】商品列表
+2026-07-12 10:34:27 [INFO] [conftest.py:103] 【浏览器】已关闭
+2026-07-12 10:35:18 [INFO] [base_page.py:35] 【Page初始化】HomePage
+2026-07-12 10:35:18 [INFO] [base_page.py:118] 【打开页面】http://localhost:8080
+2026-07-12 10:35:23 [INFO] [home_page.py:49] 【首页】已打开
+2026-07-12 10:35:23 [INFO] [base_page.py:126] 【页面标题】Vite App
+2026-07-12 10:35:23 [INFO] [base_page.py:147] 【截图】首页加载成功
+2026-07-12 10:35:25 [INFO] [conftest.py:103] 【浏览器】已关闭
+2026-07-12 10:35:26 [INFO] [base_page.py:35] 【Page初始化】HomePage
+2026-07-12 10:35:26 [INFO] [base_page.py:118] 【打开页面】http://localhost:8080
+2026-07-12 10:35:31 [INFO] [home_page.py:49] 【首页】已打开
+2026-07-12 10:35:31 [INFO] [base_page.py:70] 【查找元素】css selector = .good (多个)
+2026-07-12 10:35:31 [INFO] [home_page.py:75] 【首页】商品数量：3
+2026-07-12 10:35:31 [INFO] [base_page.py:147] 【截图】商品列表
+2026-07-12 10:35:34 [INFO] [conftest.py:103] 【浏览器】已关闭
+2026-07-12 10:36:23 [INFO] [http_client.py:37] [POST] http://localhost:28019/api/v1/user/register
+2026-07-12 10:36:23 [INFO] [http_client.py:39] Body: {"loginName": "13800138000", "password": "123456"}
+2026-07-12 10:36:23 [INFO] [http_client.py:73] Status: 200
+2026-07-12 10:36:23 [INFO] [http_client.py:77] Response: {
+  "resultCode": 500,
+  "message": "用户名已存在！",
+  "data": null
+}
+2026-07-12 10:36:23 [INFO] [http_client.py:37] [POST] http://localhost:28019/api/v1/user/login
+2026-07-12 10:36:23 [INFO] [http_client.py:39] Body: {"loginName": "13800138000", "passwordMd5": "e10adc3949ba59abbe56e057f20f883e"}
+2026-07-12 10:36:23 [INFO] [http_client.py:73] Status: 200
+2026-07-12 10:36:23 [INFO] [http_client.py:77] Response: {
+  "resultCode": 200,
+  "message": "SUCCESS",
+  "data": "e6c22bb4edae3394234db90f8cd6e79-"
+}
+2026-07-12 10:36:23 [INFO] [http_client.py:86] [Token已设置] e6c22bb4edae3394234d...
+2026-07-12 10:36:23 [INFO] [http_client.py:37] [POST] http://localhost:28019/api/v1/shop-cart
+2026-07-12 10:36:23 [INFO] [http_client.py:39] Body: {"goodsId": 10893, "goodsCount": 1}
+2026-07-12 10:36:23 [INFO] [http_client.py:73] Status: 200
+2026-07-12 10:36:23 [INFO] [http_client.py:77] Response: {
+  "resultCode": 200,
+  "message": "SUCCESS",
+  "data": null
+}
+2026-07-12 10:36:23 [INFO] [http_client.py:28] [GET] http://localhost:28019/api/v1/shop-cart
+2026-07-12 10:36:23 [INFO] [http_client.py:73] Status: 200
+2026-07-12 10:36:23 [INFO] [http_client.py:77] Response: {
+  "resultCode": 200,
+  "message": "SUCCESS",
+  "data": [
+    {
+      "cartItemId": 32,
+      "goodsId": 10893,
+      "goodsCount": 1,
+      "goodsName": "HUAWEI Mate 30 Pro 双4000万徕卡电...",
+      "goodsCoverImg": "/goods-img/mate30p2.png",
+      "sellingPrice": 5399
+    }
+  ]
+}
+2026-07-12 10:36:23 [INFO] [http_client.py:37] [POST] http://localhost:28019/api/v1/shop-cart
+2026-07-12 10:36:23 [INFO] [http_client.py:39] Body: {"goodsId": 10893, "goodsCount": 1}
+2026-07-12 10:36:23 [INFO] [http_client.py:73] Status: 200
+2026-07-12 10:36:23 [INFO] [http_client.py:77] Response: {
+  "resultCode": 500,
+  "message": "已存在！无需重复添加！",
+  "data": null
+}
+2026-07-12 10:36:23 [INFO] [http_client.py:28] [GET] http://localhost:28019/api/v1/shop-cart
+2026-07-12 10:36:23 [INFO] [http_client.py:73] Status: 200
+2026-07-12 10:36:23 [INFO] [http_client.py:77] Response: {
+  "resultCode": 200,
+  "message": "SUCCESS",
+  "data": [
+    {
+      "cartItemId": 32,
+      "goodsId": 10893,
+      "goodsCount": 1,
+      "goodsName": "HUAWEI Mate 30 Pro 双4000万徕卡电...",
+      "goodsCoverImg": "/goods-img/mate30p2.png",
+      "sellingPrice": 5399
+    }
+  ]
+}
+2026-07-12 10:36:23 [INFO] [http_client.py:37] [POST] http://localhost:28019/api/v1/shop-cart
+2026-07-12 10:36:23 [INFO] [http_client.py:39] Body: {"goodsId": 10893, "goodsCount": 2}
+2026-07-12 10:36:23 [INFO] [http_client.py:73] Status: 200
+2026-07-12 10:36:23 [INFO] [http_client.py:77] Response: {
+  "resultCode": 200,
+  "message": "SUCCESS",
+  "data": null
+}

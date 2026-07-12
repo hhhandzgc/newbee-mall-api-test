@@ -1,0 +1,9 @@
+2026-07-11 23:47:23 [INFO] [test_user.py:26] 【用例开始】test_register_success，用户名: test_user_1783784843
+2026-07-11 23:47:23 [INFO] [http_client.py:32] [POST] http://localhost:28019/api/v1/user/register
+2026-07-11 23:47:23 [INFO] [http_client.py:34] Body: {"loginName": "test_user_1783784843", "password": "123456"}
+2026-07-11 23:47:23 [INFO] [http_client.py:68] Status: 200
+2026-07-11 23:47:23 [INFO] [http_client.py:72] Response: {
+  "resultCode": 500,
+  "message": "请输入正确的手机号！",
+  "data": null
+}

@@ -1,0 +1,26 @@
+[32mINFO    [0m newbee_mall_test:http_client.py:37 [POST] http://localhost:28019/api/v1/user/register
+[32mINFO    [0m newbee_mall_test:http_client.py:39 Body: {"loginName": "13800138000", "password": "123456"}
+[32mINFO    [0m newbee_mall_test:http_client.py:73 Status: 200
+[32mINFO    [0m newbee_mall_test:http_client.py:77 Response: {
+  "resultCode": 200,
+  "message": "SUCCESS",
+  "data": null
+}
+[32mINFO    [0m newbee_mall_test:http_client.py:37 [POST] http://localhost:28019/api/v1/user/login
+[32mINFO    [0m newbee_mall_test:http_client.py:39 Body: {"loginName": "13800138000", "passwordMd5": "e10adc3949ba59abbe56e057f20f883e"}
+[32mINFO    [0m newbee_mall_test:http_client.py:73 Status: 200
+[32mINFO    [0m newbee_mall_test:http_client.py:77 Response: {
+  "resultCode": 200,
+  "message": "SUCCESS",
+  "data": "5f679e3a9713375b1348fe1edfaace14"
+}
+[32mINFO    [0m newbee_mall_test:http_client.py:86 [Token已设置] 5f679e3a9713375b1348...
+[32mINFO    [0m newbee_mall_test:http_client.py:37 [POST] http://localhost:28019/shop-cart
+[32mINFO    [0m newbee_mall_test:http_client.py:39 Body: {"goodsId": 10893, "goodsCount": 1}
+[32mINFO    [0m newbee_mall_test:http_client.py:73 Status: 404
+[32mINFO    [0m newbee_mall_test:http_client.py:77 Response: {
+  "timestamp": 1783785082696,
+  "status": 404,
+  "error": "Not Found",
+  "path": "/shop-cart"
+}

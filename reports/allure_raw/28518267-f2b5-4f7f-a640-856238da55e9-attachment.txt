@@ -1,0 +1,7 @@
+2026-07-12 10:34:19 [INFO] [base_page.py:35] 【Page初始化】HomePage
+2026-07-12 10:34:19 [INFO] [base_page.py:118] 【打开页面】http://localhost:8080
+2026-07-12 10:34:25 [INFO] [home_page.py:49] 【首页】已打开
+2026-07-12 10:34:25 [INFO] [base_page.py:70] 【查找元素】css selector = .good (多个)
+2026-07-12 10:34:25 [INFO] [home_page.py:75] 【首页】商品数量：3
+2026-07-12 10:34:25 [INFO] [base_page.py:147] 【截图】商品列表
+2026-07-12 10:34:27 [INFO] [conftest.py:103] 【浏览器】已关闭

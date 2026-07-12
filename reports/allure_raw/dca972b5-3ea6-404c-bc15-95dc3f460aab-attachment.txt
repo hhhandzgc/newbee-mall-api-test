@@ -1,0 +1,43 @@
+
+[POST] http://localhost:28019/api/v1/user/register
+Body: {"loginName": "13817837834", "password": "123456"}
+Status: 200
+Response: {
+  "resultCode": 200,
+  "message": "SUCCESS",
+  "data": null
+}
+
+[POST] http://localhost:28019/api/v1/user/login
+Body: {"loginName": "13817837834", "passwordMd5": "e10adc3949ba59abbe56e057f20f883e"}
+Status: 200
+Response: {
+  "resultCode": 200,
+  "message": "SUCCESS",
+  "data": "4135eeb4f092d904ddc5619f3f39ea6b"
+}
+
+[Token已设置] 4135eeb4f092d904ddc5...
+
+[GET] http://localhost:28019/api/v1/goods/detail/10893
+Status: 200
+Response: {
+  "resultCode": 200,
+  "message": "SUCCESS",
+  "data": {
+    "goodsId": 10893,
+    "goodsName": "HUAWEI Mate 30 Pro 双4000万徕卡电影四摄",
+    "goodsIntro": "超曲面OLED环幕屏 8GB+256GB 全网通4G版（星河银）",
+    "goodsCoverImg": "/goods-img/mate30p2.png",
+    "sellingPrice": 5399,
+    "tag": "重构想象",
+    "goodsCarouselList": [
+      "/goods-img/mate30p2.png"
+    ],
+    "originalPrice": 5399,
+    "goodsDetailContent": "<div id=\"activity_header\" style=\"margin:0px;padding:0px;color:#666666;font-family:tahoma, arial, \" background-color:#ffffff;\"=\"\">\r\n<div style=\"margin:0px;padding:0px;text-align:center;\">\r\n\t<br />\r\n</div>\r\n\t</div>\r\n<div id=\"J-detail-content\" style=\"margin:0px;padding:0px;color:#666666;font-family:tahoma, arial, \" background-color:#ffffff;\"=\"\">\r\n\t<div style=\"margin:0px auto;padding:0px;\">\r\n\t\t<img class=\"\" src=\"https://newbee-mall.oss-cn-beijing.aliyuncs.com/images/huawei-1.jpg\" /><img border=\"0\" class=\"\" src=\"https://newbee-mall.oss-cn-beijing.aliyuncs.com/images/huawei-3.jpg\" /> \r\n\t</div>\r\n</div>"
+  }
+}
+[通过] 商品详情查询成功：HUAWEI Mate 30 Pro 双4000万徕卡电影四摄
+
+[清理] 已删除测试用户：13817837834

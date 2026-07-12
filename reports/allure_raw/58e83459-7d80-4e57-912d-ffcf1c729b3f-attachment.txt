@@ -1,0 +1,41 @@
+2026-07-12 00:35:26 [INFO] [http_client.py:37] [POST] http://localhost:28019/api/v1/user/register
+2026-07-12 00:35:26 [INFO] [http_client.py:39] Body: {"loginName": "13800138000", "password": "123456"}
+2026-07-12 00:35:26 [INFO] [http_client.py:73] Status: 200
+2026-07-12 00:35:26 [INFO] [http_client.py:77] Response: {
+  "resultCode": 500,
+  "message": "用户名已存在！",
+  "data": null
+}
+2026-07-12 00:35:26 [INFO] [http_client.py:37] [POST] http://localhost:28019/api/v1/user/login
+2026-07-12 00:35:26 [INFO] [http_client.py:39] Body: {"loginName": "13800138000", "passwordMd5": "e10adc3949ba59abbe56e057f20f883e"}
+2026-07-12 00:35:26 [INFO] [http_client.py:73] Status: 200
+2026-07-12 00:35:26 [INFO] [http_client.py:77] Response: {
+  "resultCode": 200,
+  "message": "SUCCESS",
+  "data": "107311b47577434a756e1c13c0d9557c"
+}
+2026-07-12 00:35:26 [INFO] [http_client.py:86] [Token已设置] 107311b47577434a756e...
+2026-07-12 00:35:26 [INFO] [http_client.py:37] [POST] http://localhost:28019/api/v1/shop-cart
+2026-07-12 00:35:26 [INFO] [http_client.py:39] Body: {"goodsId": 10893, "goodsCount": 1}
+2026-07-12 00:35:26 [INFO] [http_client.py:73] Status: 200
+2026-07-12 00:35:26 [INFO] [http_client.py:77] Response: {
+  "resultCode": 200,
+  "message": "SUCCESS",
+  "data": null
+}
+2026-07-12 00:35:26 [INFO] [http_client.py:28] [GET] http://localhost:28019/api/v1/shop-cart
+2026-07-12 00:35:26 [INFO] [http_client.py:73] Status: 200
+2026-07-12 00:35:26 [INFO] [http_client.py:77] Response: {
+  "resultCode": 200,
+  "message": "SUCCESS",
+  "data": [
+    {
+      "cartItemId": 29,
+      "goodsId": 10893,
+      "goodsCount": 1,
+      "goodsName": "HUAWEI Mate 30 Pro 双4000万徕卡电...",
+      "goodsCoverImg": "/goods-img/mate30p2.png",
+      "sellingPrice": 5399
+    }
+  ]
+}

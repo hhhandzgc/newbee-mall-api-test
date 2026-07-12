@@ -1,0 +1,16 @@
+2026-07-11 23:51:22 [INFO] [http_client.py:28] [GET] http://localhost:28019/categories
+2026-07-11 23:51:22 [INFO] [http_client.py:73] Status: 404
+2026-07-11 23:51:22 [INFO] [http_client.py:77] Response: {
+  "timestamp": 1783785082876,
+  "status": 404,
+  "error": "Not Found",
+  "path": "/categories"
+}
+2026-07-11 23:51:22 [INFO] [http_client.py:28] [GET] http://localhost:28019/goods/category
+2026-07-11 23:51:22 [INFO] [http_client.py:73] Status: 404
+2026-07-11 23:51:22 [INFO] [http_client.py:77] Response: {
+  "timestamp": 1783785082880,
+  "status": 404,
+  "error": "Not Found",
+  "path": "/goods/category"
+}
