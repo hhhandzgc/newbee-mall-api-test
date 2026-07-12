@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+
+# Pytest
+.pytest_cache/
+reports/
+logs/
+allure-results/
+
+# IDE
+.vscode/
+.idea/
+
+# JMeter
+jmeter/result.jtl
+jmeter/report/
+
+# Drivers
+drivers/
+
+# 其他
+*.log
+.DS_Store
